@@ -1,0 +1,53 @@
+{
+    "assets": {
+        "ACJ": {
+            "name": "jquery.toast.min.css",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1515787244548x896531696431338800/jquery.toast.min.css"
+        },
+        "ACK": {
+            "name": "jquery.toast.min.js",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1515787259500x424569011898711300/jquery.toast.min.js"
+        }
+    },
+    "dependencies": {
+        "use_jquery": true
+    },
+    "shared_keys": {
+        "ACS": {
+            "caption": "BgColor - Success",
+            "type": "client_safe"
+        },
+        "ACT": {
+            "caption": "BgColor - Info",
+            "type": "client_safe"
+        },
+        "ACU": {
+            "caption": "BgColor - Warning",
+            "type": "client_safe"
+        },
+        "ACV": {
+            "caption": "BgColor - Error",
+            "type": "client_safe"
+        },
+        "ACW": {
+            "caption": "TextColor - Success",
+            "type": "client_safe"
+        },
+        "ACX": {
+            "caption": "TextColor - Info",
+            "type": "client_safe"
+        },
+        "ACY": {
+            "caption": "TextColor - Warning",
+            "type": "client_safe"
+        },
+        "ACZ": {
+            "caption": "TextColor - Error",
+            "type": "client_safe"
+        },
+        "ACa": {
+            "caption": "Default Duration",
+            "type": "client_safe"
+        }
+    }
+}

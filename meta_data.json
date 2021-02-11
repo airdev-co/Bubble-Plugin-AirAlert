@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "visual elements",
+        "1": "technical"
+    },
+    "description": "Toast notification style alerts plugin built by Airdev",
+    "image": "//s3.amazonaws.com/appforest_uf/f1515797883999x133310954319313170/Toast-Notification-Bootstrap-jQuery-Bootoast.jpg",
+    "instructions": "1. Configure your standard color settings in the plugins tab (optional)\n2. Use the action step to trigger a notification",
+    "license": "open_source",
+    "link": "https://airdev.co",
+    "name": "AirAlert",
+    "plugin_instructions": "1. Configure your standard color settings in the plugins tab (optional)\n2. Use the action step to trigger a notification"
+}

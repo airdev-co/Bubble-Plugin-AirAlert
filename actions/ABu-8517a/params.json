@@ -1,0 +1,129 @@
+{
+    "category": "plugins",
+    "display": "AirAlert - Custom",
+    "fields": {
+        "ABv": {
+            "caption": "Heading",
+            "default_val": "Title",
+            "doc": "Title of the notification",
+            "editor": "DynamicValue",
+            "name": "heading",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABw": {
+            "caption": "Text",
+            "default_val": "Content goes here...",
+            "doc": "Content of the notification",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "text",
+            "rank": 1,
+            "value": "text"
+        },
+        "ABx": {
+            "caption": "Show Close Button",
+            "default_val": true,
+            "doc": "Show a close button or not",
+            "editor": "Checkbox",
+            "name": "closeButton",
+            "rank": 5
+        },
+        "ABy": {
+            "caption": "Position",
+            "default_val": "Top Right",
+            "doc": "Position of notification",
+            "editor": "Dropdown",
+            "name": "position",
+            "options": "Top Right,Bottom Right,Bottom Left,Top Left,Top Center,Bottom Center",
+            "rank": 6
+        },
+        "ABz": {
+            "caption": "Hide after (ms)",
+            "default_val": 5000,
+            "doc": "Timeout of the notification",
+            "editor": "DynamicValue",
+            "name": "hideAfter",
+            "rank": 7,
+            "value": "number"
+        },
+        "ACC": {
+            "caption": "Display Progress Bar",
+            "default_val": false,
+            "doc": "Display a Progress Bar",
+            "editor": "Checkbox",
+            "name": "progressBar",
+            "rank": 11
+        },
+        "ACL": {
+            "caption": "Icon to display",
+            "default_val": "None",
+            "doc": "Icon",
+            "editor": "Dropdown",
+            "name": "icon",
+            "options": "Warning,Success,Error,Information,None",
+            "rank": 3
+        },
+        "ACM": {
+            "caption": "Animation",
+            "default_val": "Plain",
+            "doc": "Animation",
+            "editor": "Dropdown",
+            "name": "animation",
+            "options": "Fade,Slide,Plain",
+            "rank": 4
+        },
+        "ACN": {
+            "caption": "Max Notifications at Once",
+            "default_val": 5,
+            "doc": "Max number of notifications at once",
+            "editor": "StaticNumber",
+            "name": "maxNumber",
+            "rank": 12,
+            "value": "number"
+        },
+        "ACO": {
+            "caption": "Progress Bar Color",
+            "default_val": "#9EC600",
+            "doc": "Progress Bar Color",
+            "editor": "DynamicValue",
+            "name": "progressBarColor",
+            "rank": 10,
+            "value": "text"
+        },
+        "ACP": {
+            "caption": "Text Alignment",
+            "default_val": "Left",
+            "doc": "Alignment of text",
+            "editor": "Dropdown",
+            "name": "textAlign",
+            "options": "Left,Right,Center",
+            "rank": 13
+        },
+        "ACQ": {
+            "caption": "Background Color",
+            "default_val": "#FF1356",
+            "doc": "Background color. Default colors: Success: #4CAF50 Info: #4183D7 Warning: #FF9800 Error: #ED3E44",
+            "editor": "DynamicValue",
+            "name": "bgColor",
+            "rank": 8,
+            "value": "text"
+        },
+        "ACR": {
+            "caption": "Text Color",
+            "default_val": "#FFFFFF",
+            "doc": "Text color",
+            "editor": "DynamicValue",
+            "name": "textColor",
+            "rank": 9,
+            "value": "text"
+        },
+        "ACg": {
+            "caption": "Note: Heading and Message also accept HTML styling",
+            "editor": "Label",
+            "name": "heading_and_message_also_accept_html_styling",
+            "rank": 2
+        }
+    },
+    "type": "client_side"
+}

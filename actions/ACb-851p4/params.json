@@ -1,0 +1,41 @@
+{
+    "category": "plugins",
+    "display": "AirAlert - Standard",
+    "fields": {
+        "ACc": {
+            "caption": "Notification Type",
+            "default_val": "Success",
+            "doc": "Type of notification",
+            "editor": "Dropdown",
+            "name": "type",
+            "options": "Warning,Success,Error,Information",
+            "rank": 0
+        },
+        "ACd": {
+            "caption": "Heading",
+            "default_val": "Title",
+            "doc": "Title of the notification",
+            "editor": "DynamicValue",
+            "name": "heading",
+            "rank": 1,
+            "value": "text"
+        },
+        "ACe": {
+            "caption": "Text",
+            "default_val": "Content goes here...",
+            "doc": "Content of the notification",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "text",
+            "rank": 2,
+            "value": "text"
+        },
+        "ACh": {
+            "caption": "Note: Heading and Message also accept HTML styling",
+            "editor": "Label",
+            "name": "heading_and_message_also_accept_html_styling",
+            "rank": 3
+        }
+    },
+    "type": "client_side"
+}
